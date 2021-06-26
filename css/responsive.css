@@ -1,0 +1,245 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .header-logo {
+        width: 72%;
+    }
+    .header-number h2 {
+        font-size: 22px;
+    }
+    .header-number h2 img {
+        width: 30px;
+    }
+    .header-number {
+        text-align: center;
+    }
+    .banner-form h2 {
+        font-size: 18px;
+        margin-bottom: 17px;
+    }
+    input.form-name,input.form-email,input.form-number {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .banner-form form button {
+        font-size: 16px;
+    }
+    .banner-form h3 {
+        font-size: 15px;
+    }
+    .price-heading h2 {
+        font-size: 35px;
+    }
+    .price-heading h3 {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .single-price-box {
+        width: 100%;
+        height: 225px;
+        margin-top: 20px;
+    }
+    .single-price-box h2 {
+        font-size: 22px;
+    }
+    .price-heading h6 {
+        font-size: 18px;
+        margin-top: 35px;
+    }
+    .feature {
+        margin: 20px 0;
+    }
+    .feature-heading h1 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .feature-box::after{
+        display: none;
+    }
+    .feature-box h2 {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    .feature-box2 {
+        margin-top: 0px;
+    }
+    footer {
+        padding: 0 0 30px 0;
+    }
+    .price-heading {
+        margin-top: 55px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header-logo {
+        width: 80%;
+    }
+    .header-number h2 {
+        font-size: 22px;
+    }
+    .header-number h2 img {
+        width: 30px;
+    }
+    .header-number {
+        text-align: center;
+    }
+    .banner-form h2 {
+        font-size: 20px;
+        margin-bottom: 17px;
+    }
+    input.form-name,input.form-email,input.form-number {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .banner-form form button {
+        font-size: 19px;
+    }
+    .banner-form h3 {
+        font-size: 15px;
+    }
+    .price-heading {
+        margin-top: -313px;
+    }
+    .price-heading h2 {
+        font-size: 35px;
+    }
+    .price-heading h3 {
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .single-price-box {
+        width: 100%;
+        height: 285px;
+        margin-top: 20px;
+    }
+    .single-price-box h2 {
+        font-size: 22px;
+    }
+    .price-heading h6 {
+        font-size: 18px;
+        margin-top: 35px;
+    }
+    .feature {
+        margin: 20px 0;
+    }
+    .feature-heading h1 {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .feature-box::after{
+        display: none;
+    }
+    .feature-box h2 {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    .feature-box2 {
+        margin-top: 0px;
+    }
+    footer {
+        padding: 0 0 30px 0;
+    }
+    .price-heading {
+        margin-top: 80px;
+    }
+    .banner-form.sticky-top {
+        position: static;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-logo {
+        width: 90%;
+    }
+    .header-number h2 {
+        font-size: 28px;
+    }
+    .banner-form h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    input.form-name,input.form-email,input.form-number {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .banner-form form button {
+        font-size: 16px;
+        padding: 12px 11px;
+    }
+    .banner-form h3 {
+        font-size: 16px;
+    }
+    .price-heading h2 {
+        font-size: 45px;
+    }
+    .price-heading h3 {
+        font-size: 26px;
+    }
+    .single-price-box h2 {
+        font-size: 19px;
+    }
+    .single-price-box{
+        width: 100%;
+    }
+    .price-heading {
+        margin-top: 309px;
+    }
+    .price-heading h6 {
+        font-size: 22px;
+    }
+    .feature-heading h1 {
+        font-size: 35px;
+    }
+    .feature-box h2, .feature-box2 h2 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .feature-box img {
+        width: 80%;
+    }
+    .feature-box::after {
+        height: 73px;
+        right: -27px;
+        top: 55px;
+    }  
+    footer {
+        padding: 0 0 40px 0;
+    } 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner-form form button {
+        font-size: 20px;
+    }
+    .price-heading h2{
+        font-size:28px;
+    }
+    .single-price-box {
+        width: 100%;
+        height: 286px;
+    }
+    .feature-heading h1 {
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+    .feature-box h2, .feature-box2 h2 {
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .feature-box::after {
+        right: -16px;
+        top: 70px;
+    }
+    footer {
+        padding: 0 0 40px 0;
+    }
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}

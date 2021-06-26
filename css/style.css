@@ -1,0 +1,240 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #242021;
+}
+/*--------------------------------------------
+Header start
+---------------------------------------------*/
+header {
+    background: #00000069;
+    padding: 8px 0;
+}
+.header-number h2 img {
+    width: 50px;
+}
+.header-number {
+    text-align: right;
+    padding: 20px 0 0 0;
+}
+.header-number h2{
+    color: #fff;
+    font-size: 40px;
+}
+/*--------------------------------------------
+Header end
+---------------------------------------------*/
+/*--------------------------------------------
+Banner start
+---------------------------------------------*/
+.banner {
+    background-image: url(../images/bg1.jpg);
+    background-position: center;
+    width: 100%;
+    height: 882px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-form.sticky-top{
+    top: 70px;
+}
+.banner-form {
+    background: #fff;
+    padding: 28px 16px;
+    margin-top: 55px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.banner-form h2 {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.banner-form h3 {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.banner-form h3 img {
+    font-weight: 400;
+    font-size: 18px;
+    margin-right: 7px;
+}
+.banner-form span{
+    font-weight: 700;
+}
+input.form-name {
+    border: navajowhite;
+    border-bottom: 1px solid #000;
+    font-size: 19px;
+    font-weight: 300;
+    width: 100%;
+    padding: 0 8px;
+    margin-bottom: 22px;
+}
+
+input.form-email{
+    border: navajowhite;
+    border-bottom: 1px solid #000;
+    font-size: 19px;
+    font-weight: 300;
+    width: 100%;
+    padding: 0 8px;
+    margin-bottom: 22px;
+}
+input.form-number{
+    border: navajowhite;
+    border-bottom: 1px solid #000;
+    font-size: 19px;
+    font-weight: 300;
+    width: 100%;
+    padding: 0 8px;
+    margin-bottom: 22px;
+}
+input:focus{
+    outline: none;
+}
+.banner-form form button {
+    border: none;
+    display: block;
+    font-weight: 800;
+    margin: 16px 0 31px 0px;
+    font-size: 30px;
+    padding: 10px 13px;
+    outline: none;
+    border-radius: 35px;
+    background: linear-gradient(
+63deg
+, rgba(254,237,193,1)26%,rgba(133,114,86,1)102%);
+    box-shadow: 4px 0px 17px 0px #8c8989b8;
+}
+/*--------------------------------------------
+Banner end
+---------------------------------------------*/
+/*--------------------------------------------
+Price end
+---------------------------------------------*/
+.price-heading {
+    margin-top: 420px;
+}
+.price-heading h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+.price-heading h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 33px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.price-heading h6 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+.single-price-box {
+    border: 1px solid rgb(200,178,142);
+    width: 230px;
+    height: 272px;
+    padding: 16px 0px;
+    border-radius: 42px;
+    background: #242021;
+    box-shadow: 0px 0px 70px 5px #000;
+}
+.single-price-box img {
+    margin-bottom: 20px;
+}
+.single-price-box p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.single-price-box p span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.single-price-box p.price-del {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 0;
+    position: relative;
+}
+.single-price-box h2 {
+    font-size: 35px;
+    text-transform: none;
+    font-weight: 700;
+}
+/*--------------------------------------------
+Price end
+---------------------------------------------*/
+/*--------------------------------------------
+feature start
+---------------------------------------------*/
+.feature {
+    margin: 35px 0;
+}
+.feature-heading h1 {
+    color: #ecddb3;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+}
+.feature-box {
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+.feature-box2 {
+    padding: 15px;
+    text-align: center;
+    margin-top: 90px;
+}
+.feature-box::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 118px;
+    right: 0px;
+    top: 55px;
+    background-color: #fff;
+}
+.feature-box h2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+}
+.feature-box2 h2 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+}
+/*--------------------------------------------
+feature end
+---------------------------------------------*/
+/*--------------------------------------------
+footer start
+---------------------------------------------*/
+footer {
+    padding: 140px 0 80px 0;
+}
+.f-content hr {
+    border-top: 1px solid #ffffff59;
+}
+.f-content p{
+    color: #fefefe;
+    margin: 0;
+}
+.f-content p span{
+    color: #ecddb3;
+}
+/*--------------------------------------------
+footer end
+---------------------------------------------*/
